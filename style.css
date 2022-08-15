@@ -20,6 +20,7 @@ h1, h2, h3, h4, p {
     display: grid;
     width: 570px;
     height: 570px;
+    outline: black solid 1px;
 }
 
 .item {

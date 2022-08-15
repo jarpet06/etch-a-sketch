@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,18 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <h1>Etch a Sketch</h1>
-        <button onclick="changeGrid()">Change Grid</button>
+            <div>
+                <button onclick="changeGrid()">Change Grid</button>
+                <button onclick="removeBorders()">Remove grid borders</button>
+            </div>
         </div>
         <div id="grid"></div>
     </div>
 </body>
+
 </html>
